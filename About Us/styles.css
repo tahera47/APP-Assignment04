@@ -1,0 +1,143 @@
+html , body {
+    margin: 0;
+    padding: 0; 
+}
+h1 {
+    margin-top: 50px;
+}
+nav {
+    background-color: #3c5743;
+    text-align: center;
+    display:flex;
+    justify-content: right;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right:0;
+    padding-left:0;
+    width: 80px;
+}  
+body {
+    background-color: #91ba9c;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Lexend', sans-serif;
+}
+A:hover {
+    background-color: #54b862;
+}
+.team {
+    position: absolute;
+
+}
+.first {
+    background-color: white;
+    padding: 15px;
+    padding-left: 15px;
+    padding-top: 0;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    justify-content: center;
+}
+h3 {
+    margin-top: 10px;
+}
+.team {
+    width: 250px;
+    padding: 10px;
+    opacity: 0.2px;
+    color: white;
+    background-color: #3c5743;
+}
+.unity img:hover {
+    background-color: #27382b;
+}
+.unity img {
+    width: 600px;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: block;
+    background-color: #3c5743;
+    border-top: 2px solid#3c5743;
+    border-bottom: 2px solid#3c5743;
+}
+.unity {
+    position: relative;
+}
+.team {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #54b862;
+    visibility: hidden;
+}
+.name1 {
+    margin: auto;
+}
+.first:hover .team {
+    visibility: visible;
+}
+.pic {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.pic img{
+    width:190px;
+    height: 180px;
+    margin: 30px;
+    border-radius: 110px;
+    border: 3px solid #3c5743;;
+    justify-content: center;
+}
+.name {
+   text-align: center;
+   margin-bottom: 0;
+   visibility: hidden;
+}
+.pic1:hover .name {
+    visibility:visible ;
+    background-color: #54b862;
+    border-radius: 15px;
+    padding: 10px;
+}
+.pic2:hover .name {
+    visibility:visible ;
+    background-color: #54b862;
+    border-radius: 15px;
+    padding: 10px;
+}
+.pic3:hover .name {
+    visibility:visible ;
+    background-color: #54b862;
+    border-radius: 15px;
+    padding: 10px;
+}
+.marg {
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+.marg1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+footer {
+    background-color:#3c5743;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,136 @@
+html , body {
+    margin: 0;
+    padding: 0; 
+}
+nav {
+    background-color: #3c5743;
+    text-align: center;
+    display:flex;
+    justify-content: right;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+h1 {
+    text-align:center;
+    margin-top: 50px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right:0;
+    padding-left:0;
+    width: 80px;
+}  
+body {
+    background-color: #91ba9c;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Lexend', sans-serif;
+}
+img {
+    width: 400px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+h2 {
+    text-align: center;
+    display: block;
+    margin-bottom: 5px;
+    padding-left: 18px;
+    font-size: 20px;
+}
+A:hover {
+    background-color: #54b862;
+}
+.row1 {
+   display: flex;
+   background-color: white;
+   padding-right: 10px;
+   padding: 20px;
+   justify-content: center;
+}
+.promo-code {
+    text-align: center;
+    border: 1px solid black;
+    background-color: #91ba9c;
+    color: black;
+    margin-top: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    width: 200px;
+    padding: 3px;
+    border-radius: 15px;
+}
+p {
+    margin: 2px;
+    padding-left: 15px;
+}
+ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.book-container {
+    width: 800px;
+    background-color: white;
+    margin: auto;
+}
+.row2 img{
+    width: 100%;
+    Height: 170px;
+    border: 2px solid #3c5743;
+    border-radius: 20px;
+}
+.kind {
+    padding-left: 50px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.icon {
+   display: flex;
+   justify-content: center; 
+}
+.icon1 img{
+    width: 40px;
+    margin-left:3px;
+    margin-right:3px;
+    background-color: white;
+    margin-top: -35px;
+    padding: 7px;
+    border: 2px solid #3c5743;
+}
+.item {
+    background-color: #91ba9c;
+    width: 130px;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+    border-top: 2px solid #3c5743;
+    border-bottom: 2px solid #3c5743;
+    border-radius: 20px;
+}
+.row2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+footer {
+    background-color:#3c5743;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.name {
+    background-color:white;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-bottom:3px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border: 1px solid #3c5743;
+}
