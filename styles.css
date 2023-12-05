@@ -49,6 +49,7 @@ h2 {
 }
 A:hover {
     background-color: #54b862;
+    color: black;
 }
 .row1 {
    display: flex;

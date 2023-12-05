@@ -31,6 +31,7 @@ body {
 }
 A:hover {
     background-color: #54b862;
+    color: black;
 }
 .team {
     position: absolute;
