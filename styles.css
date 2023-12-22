@@ -145,4 +145,5 @@ footer {
     visibility: hidden;
     position: relative;
     border: 2px solid #3c5743;
+    border-radius: 3px;
 }
